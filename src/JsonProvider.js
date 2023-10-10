@@ -7,7 +7,7 @@ const { set, get, unset } = require("lodash");
  * @type {JsonDatabase<V>}
  * @template V
  */
-class JsonDatabase {
+class JsonDatabasev2 {
     /**
      * @param {import("./Types/IOptions").IOptions} options
      * @constructor
