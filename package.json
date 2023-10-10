@@ -1,7 +1,7 @@
 {
-    "name": "wio.db",
-    "version": "4.0.21",
-    "description": "Gözle okunabilir database modülü.",
+    "name": "wio.db-v2",
+    "version": "1.0.0",
+    "description": "V2 da database wio.db.",
     "main": "index.js",
     "directories": {
         "test": "test"
@@ -24,7 +24,7 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/wioenena-q/JS-WioDB"
+        "url": "https://github.com/KiritoGamesPlays/V2-wio.db"
     },
     "dependencies": {
         "lodash": "^4.17.21",
