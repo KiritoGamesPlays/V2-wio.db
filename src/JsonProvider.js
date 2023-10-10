@@ -505,7 +505,7 @@ class JsonDatabasev2 {
     }
 }
 
-module.exports = JsonDatabase;
+module.exports = JsonDatabasev2;
 
 /**
  * @template T
