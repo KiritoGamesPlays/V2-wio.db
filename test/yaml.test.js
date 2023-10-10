@@ -1,8 +1,8 @@
-const { YamlDatabase } = require("../index");
+const { YamlDatabasev2 } = require("../index");
 const assert = require("assert");
 
 describe("Yaml class all controls", () => {
-    const db = new YamlDatabase({
+    const db = new YamlDatabasev2({
         databasePath: "/databases/example3/example3.yml",
         maxDataSize: 100
     });
