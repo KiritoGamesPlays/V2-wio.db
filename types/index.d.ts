@@ -9,7 +9,7 @@
 
 
 
-declare module "wio.db" {
+declare module "wio.db-v2" {
     export class JsonDatabase<V> {
         private cache: { [key: string]: V };
         public path: string;
