@@ -10,7 +10,7 @@
 
 
 declare module "wio.db-v2" {
-    export class JsonDatabase<V> {
+    export class JsonDatabasev2<V> {
         private cache: { [key: string]: V };
         public path: string;
         public maxDataSize: number;
@@ -43,7 +43,7 @@ declare module "wio.db-v2" {
         public get info(): IInfo;
     }
 
-    export class YamlDatabase<V> {
+    export class YamlDatabasev2<V> {
         private cache: { [key: string]: V };
         public path: string;
         public maxDataSize: number;
