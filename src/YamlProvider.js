@@ -8,7 +8,7 @@ const yaml = require("yaml");
  * @type {JsonDatabase<V>}
  * @template V
  */
-class JsonDatabase {
+class JsonDatabasev2 {
     /**
      * @param {import("./Types/IOptions").IOptions} options
      * @constructor
@@ -502,7 +502,7 @@ class JsonDatabase {
     }
 }
 
-module.exports = JsonDatabase;
+module.exports = JsonDatabasev2;
 
 /**
  * @template T
