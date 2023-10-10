@@ -1,8 +1,8 @@
-const { JsonDatabase } = require("../index");
+const { JsonDatabasev2 } = require("../index");
 const assert = require("assert");
 
 describe("Json class all controls", () => {
-    const db = new JsonDatabase({
+    const db = new JsonDatabasev2({
         databasePath: "/databases/example3/example3.json",
         maxDataSize: 100
     });
